@@ -1,0 +1,5 @@
+tasks:
+  - name: cleanup
+    steps:
+      - name: Delete temporary files
+        run: rm -rf /workspace/tmp
