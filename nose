@@ -1,0 +1,5 @@
+tasks:
+  - name: nose-test
+    steps:
+      - name: Run nose tests
+        run: nosetests --with-xunit
